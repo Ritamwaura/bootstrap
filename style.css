@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.hero{
+    height: 100vh;
+    background: rgb(24, 125, 226);
+    clip-path: polygon(0% 0%, 100% 0%, 61% 40%, 85% 72%, 100% 100%, 14% 99%, 51% 40%);
+
+    position: relative;
+    font-family: 'Dela Gothic One', cursive;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+   align-items: center;
+    justify-items: space-between;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px ;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: seagreen;
+    
+
+}
+.info{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.info h1{
+    font-size:50px ;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(10, 241, 68);
+}
+.info a{
+    background-color: black;
+    padding: 10px 18px;
+    color:#fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.img-box{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.img-box img{
+    height:100% ;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+transition: bottom 1s left 1s;
+
+}
+.img-box:hover .back-img{
+    bottom: 40px;
+}
+.img-box:hover .main-img{
+    left:54%;
+}
+
+
